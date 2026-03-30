@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelSuite" parallel="classes" thread-count="3">
+
+    <test name="ParallelTest">
+        <classes>
+            <class name="Register.Xmltest1"/>
+          <class name="Register.Xmltest2"/>
+           <class name="Register.Xmltest3"/>
+        </classes>
+    </test>
+
+</suite>
